@@ -14,7 +14,7 @@
     "build:prod": "ng build --configuration production",
     "start:prod": "http-server ./dist -a localhost -p 4200",
     "build-and-start:prod": "run-s build:prod start:prod",
-    "e2e": "server && start:prod && cypress:run"
+    "e2e": "cypress:run"
   },
   "private": true,
   "dependencies": {
